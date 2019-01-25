@@ -13,7 +13,7 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "build": "babel index.js -d dist",
+    "build": "babel src/index.js -d dist",
     "start": "npm run build && node dist/index.js",
     "test": "mocha test/**/*.js --require babel-register"
   },
