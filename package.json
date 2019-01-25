@@ -1,0 +1,27 @@
+{
+  "name": "unsubscriber",
+  "version": "1.0.0",
+  "description": "unsubscribe from annoying emails",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "^27.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sofbot/unsubscriber.git"
+  },
+  "author": "sofbot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofbot/unsubscriber/issues"
+  },
+  "homepage": "https://github.com/sofbot/unsubscriber#readme"
+}
