@@ -42,7 +42,7 @@ var setup = exports.setup = function () {
           case 6:
             data = _context.sent;
 
-            console.log(_chalk2.default.bold.green('unsubscribe-able lists:'));
+            console.log(_chalk2.default.bold.green('Unsubscribe-able lists:'));
             data.map(function (result) {
               var sender = result.sender,
                   email = result.email,

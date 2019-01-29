@@ -4,7 +4,7 @@ A simple command line tool to unsubscribe from mailing lists more efficiently. G
 
 Unsubscriber pulls email data from your gmail API and displays a list of miling list senders along with a link and/or email to unsubscribe from their annoying emails. Currently relies upon the 'List-Unsubscribe' header to get unsubscribe links and emails.
 
-from the root directory, run `npm start` to get your unsubscribe list. run `npm test` to run test suite
+To play with this yourself, you must first register a new app with the gmail API. Next create a `.env` file with your app credentials, as outlined in `.env.example`. Then from the root directory, run `npm start` to get your unsubscribe list. Run `npm test` to run test suite!
 
 # Specs / APIs 
 * gmail API v1
